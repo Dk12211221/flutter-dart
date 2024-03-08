@@ -1,13 +1,15 @@
-//listview.builder use for list making
-//task 2
 
+//T-1 Write a Dart program to Print Hello Dart.
+printhello(){
+  print('Hello Dart');
+}
 
 void main() {
   printhello();
   performaddition();
 performmultiplication();
 }
-// Write a Dart program to perform addition of two different numbers.
+//T-2 Write a Dart program to perform addition of two different numbers.
 performaddition(){
   int num1 = 10;
   int num2 = 20;
@@ -17,12 +19,8 @@ performaddition(){
   print('The sum of $num1 and $num2 is $sum');
 }
 
-//Write a Dart program to Print Hello Dart.
-printhello(){
-  print('Hello Dart');
-}
-//Write a Dart program to perform multiplication of
-// two user given numbers.
+
+//T-3 Write a Dart program to perform multiplication of two user given numbers.
 performmultiplication(){
   int num1 = 10;
   int num2 = 20;
